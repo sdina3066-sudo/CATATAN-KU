@@ -1,0 +1,327 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Lenovo/.gradle/wrapper/dists/gradle-9.3.1-all/9ot9r568e8zfvvd4mn8rbu1j0/gradle-9.3.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Checking the license for package Android SDK Platform 35 in C:\Users\Lenovo\AppData\Local\Android\Sdk\licenses
+License for package Android SDK Platform 35 accepted.
+Preparing "Install Android SDK Platform 35 (revision 2)".
+"Install Android SDK Platform 35 (revision 2)" ready.
+Installing Android SDK Platform 35 in C:\Users\Lenovo\AppData\Local\Android\Sdk\platforms\android-35
+"Install Android SDK Platform 35 (revision 2)" complete.
+"Install Android SDK Platform 35 (revision 2)" finished.
+[=========                              ] 25%                                   
+Checking the license for package CMake 3.22.1 in C:\Users\Lenovo\AppData\Local\Android\Sdk\licenses
+License for package CMake 3.22.1 accepted.
+Preparing "Install CMake 3.22.1 v.3.22.1".
+"Install CMake 3.22.1 v.3.22.1" ready.
+Installing CMake 3.22.1 in C:\Users\Lenovo\AppData\Local\Android\Sdk\cmake\3.22.1
+"Install CMake 3.22.1 v.3.22.1" complete.
+"Install CMake 3.22.1 v.3.22.1" finished.
+Running Gradle task 'assembleDebug'...                            869.9s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...          10.0s
+I/FlutterActivityAndFragmentDelegate(11858): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(11858): Beginning load of flutter...
+D/FlutterJNI(11858): flutter (null) was loaded normally!
+I/flutter (11858): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterRenderer(11858): Width is zero. 0,0
+Syncing files to device sdk gphone64 x86 64...                   2,640ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:51704/217Q-JMne1Q=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:51704/217Q-JMne1Q=/devtools/?uri=ws://127.0.0.1:51704/217Q-JMne1Q=/ws
+D/ProfileInstaller(11858): Installing profile for com.example.trashbank_batam
+I/Choreographer(11858): Skipped 1106 frames!  The application may be doing too much work on its main thread.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+I/trashbank_batam(11858): Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals(long)
+I/WindowExtensionsImpl(11858): Initializing Window Extensions, vendor API level=10, activity embedding enabled=true
+W/UiContextUtils(11858): Requested context is a non-UI Context. Creating a UI-Context with display: 0. Context: Context=android.app.Application@81e28e9, of which baseContext=android.app.ContextImpl@87fcaf9
+D/VRI[MainActivity](11858): WindowInsets changed: 1080x2424 statusBars:[0,142,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,174,0,84] 
+D/FlutterRenderer(11858): Width is zero. 0,0
+I/Surface (11858): Creating surface for consumer unnamed-11858-0 with slotExpansion=1 for 64 slots
+I/Surface (11858): Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/Surface (11858): Creating surface for consumer unnamed-11858-1 with slotExpansion=1 for 64 slots
+I/Surface (11858): Creating surface for consumer d6227bb SurfaceView[com.example.trashbank_batam/com.example.trashbank_batam.MainActivity]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+D/DesktopExperienceFlags(11858): Toggle override initialized to: false
+I/Choreographer(11858): Skipped 329 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/HWUI    (11858): Davey! duration=6016ms; Flags=1, FrameTimelineVsyncId=39765, IntendedVsync=4912862725572, Vsync=4918346058686, InputEventId=0, HandleInputStart=4918359544800, AnimationStart=4918359627100, PerformTraversalsStart=4918359739500, DrawStart=4918402096200, FrameDeadline=4912879392238, FrameStartTime=4918355847400, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=4918346058686, SyncQueued=4918407957300, SyncStart=4918410113500, IssueDrawCommandsStart=4918411710900, SwapBuffers=4918470328700, FrameCompleted=4918880908400, DequeueBufferDuration=14015600, QueueBufferDuration=663000, GpuCompleted=4918880908400, SwapBuffersCompleted=4918873828300, DisplayPresentTime=0, CommandSubmissionCompleted=4918470328700, 
+D/WindowLayoutComponentImpl(11858): Register WindowLayoutInfoListener on Context=com.example.trashbank_batam.MainActivity@75ae031, of which baseContext=android.app.ContextImpl@ea9421c
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/InsetsController(11858): hide(ime())
+I/ImeTracker(11858): com.example.trashbank_batam:85838a58: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/Choreographer(11858): Skipped 51 frames!  The application may be doing too much work on its main thread.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+I/trashbank_batam(11858): NativeAlloc concurrent mark compact GC freed 1030KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2399KB/4798KB, paused 8.061ms,6.515ms total 769.405ms
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+Performing hot restart...                                       
+Restarted application in 25,460ms.
+I/Choreographer(11858): Skipped 36 frames!  The application may be doing too much work on its main thread.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+I/Choreographer(11858): Skipped 31 frames!  The application may be doing too much work on its main thread.
+I/ImeTracker(11858): com.example.trashbank_batam:f9efd919: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+I/HWUI    (11858): Using FreeType backend (prop=Auto)
+D/InsetsController(11858): show(ime())
+D/InsetsController(11858): Setting requestedVisibleTypes to 511 (was 503)
+I/Choreographer(11858): Skipped 70 frames!  The application may be doing too much work on its main thread.
+I/ImeTracker(11858): com.example.trashbank_batam:efd081d9: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): show(ime())
+I/ImeTracker(11858): com.example.trashbank_batam:efd081d9: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/InputConnectionAdaptor(11858): The input method toggled cursor monitoring on
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@cb48668
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+W/InteractionJankMonitor(11858): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.trashbank_batam
+I/HWUI    (11858): Davey! duration=703ms; Flags=0, FrameTimelineVsyncId=57856, IntendedVsync=6988479309214, Vsync=6988912642530, InputEventId=0, HandleInputStart=6988934923700, AnimationStart=6988934979000, PerformTraversalsStart=6988979358100, DrawStart=6988979654400, FrameDeadline=6989029309150, FrameStartTime=6988927022000, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=6988912642530, SyncQueued=6988979949000, SyncStart=6988984327600, IssueDrawCommandsStart=6989036041800, SwapBuffers=6989070765000, FrameCompleted=6989187204600, DequeueBufferDuration=53500, QueueBufferDuration=72144700, GpuCompleted=6989150372700, SwapBuffersCompleted=6989187204600, DisplayPresentTime=0, CommandSubmissionCompleted=6989070765000, 
+I/ImeTracker(11858): com.example.trashbank_batam:f9efd919: onShown
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+W/trashbank_batam(11858): Verification of void androidx.core.view.ViewCompat.<clinit>() took 117.914ms (771.74 bytecodes/s) (0B arena alloc)
+I/HWUI    (11858): Davey! duration=744ms; Flags=0, FrameTimelineVsyncId=57892, IntendedVsync=6988945975862, Vsync=6989295975848, InputEventId=0, HandleInputStart=6989306793600, AnimationStart=6989306855300, PerformTraversalsStart=6989663419200, DrawStart=6989663726900, FrameDeadline=6989179309186, FrameStartTime=6989298360200, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=6989295975848, SyncQueued=6989664085300, SyncStart=6989668663900, IssueDrawCommandsStart=6989668897900, SwapBuffers=6989669742600, FrameCompleted=6989694620200, DequeueBufferDuration=140900, QueueBufferDuration=525200, GpuCompleted=6989694154900, SwapBuffersCompleted=6989694620200, DisplayPresentTime=0, CommandSubmissionCompleted=6989669742600, 
+I/ImeTracker(11858): com.example.trashbank_batam:ff9c963f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): hide(ime())
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/InsetsController(11858): Setting requestedVisibleTypes to 503 (was 511)
+D/CompatChangeReporter(11858): Compat change id reported: 395521150; UID 10235; state: ENABLED
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): system_server:4a634b07: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+I/ImeTracker(11858): com.example.trashbank_batam:a8df02ff: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): show(ime())
+D/InsetsController(11858): Setting requestedVisibleTypes to 511 (was 503)
+D/InputConnectionAdaptor(11858): The input method toggled cursor monitoring on
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@cb48668
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): com.example.trashbank_batam:a8df02ff: onShown
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): com.example.trashbank_batam:fcca7ed: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): hide(ime())
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/InsetsController(11858): Setting requestedVisibleTypes to 503 (was 511)
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+I/Choreographer(11858): Skipped 31 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): system_server:c8939b94: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/InteractionJankMonitor(11858): Build configuration failed!
+D/InteractionJankMonitor(11858): java.lang.IllegalArgumentException: Must pass in a valid surface control if only instrument surface; 
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.validate(InteractionJankMonitor.java:946)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:882)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:0)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration$Builder.build(InteractionJankMonitor.java:852)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor.begin(InteractionJankMonitor.java:400)
+D/InteractionJankMonitor(11858): 	at android.view.inputmethod.ImeTracker$ImeJankTracker.lambda$onRequestAnimation$0(ImeTracker.java:970)
+D/InteractionJankMonitor(11858): 	at android.view.inputmethod.ImeTracker$ImeJankTracker$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.handleCallback(Handler.java:1095)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+D/InteractionJankMonitor(11858): 	at android.os.Looper.loopOnce(Looper.java:296)
+D/InteractionJankMonitor(11858): 	at android.os.Looper.loop(Looper.java:397)
+D/InteractionJankMonitor(11858): 	at android.app.ActivityThread.main(ActivityThread.java:9523)
+D/InteractionJankMonitor(11858): 	at java.lang.reflect.Method.invoke(Native Method)
+D/InteractionJankMonitor(11858): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+D/InteractionJankMonitor(11858): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:939)
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+
+══╡ EXCEPTION CAUGHT BY FLUTTER FRAMEWORK ╞═════════════════════════════════════════════════════════
+The following assertion was thrown:
+ListTile background color or ink splashes may be invisible.
+The ListTile is wrapped in a DecoratedBox that has a background color. Because ListTile paints its
+background and ink splashes on the nearest Material ancestor, this DecoratedBox will hide those
+effects.
+To fix this, wrap the ListTile in its own Material widget, or remove the background color from the
+intermediate DecoratedBox.
+
+ListTile: ListTile(onTap: Closure: () => void from Function 'expand':., enableFeedback: true)
+DecoratedBox:
+  DecoratedBox(bg: BoxDecoration(color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB), border: Border.all(BorderSide(color: Color(alpha: 1.0000, red: 0.9059, green: 0.9216, blue: 0.8980, colorSpace: ColorSpace.sRGB))), borderRadius: BorderRadius.circular(8.0)))
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+Another exception was thrown: ListTile background color or ink splashes may be invisible.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+Performing hot restart...                                       
+Restarted application in 22,438ms.
+I/Choreographer(11858): Skipped 36 frames!  The application may be doing too much work on its main thread.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+I/Choreographer(11858): Skipped 36 frames!  The application may be doing too much work on its main thread.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+I/ImeTracker(11858): com.example.trashbank_batam:a99e26e1: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): show(ime())
+D/InsetsController(11858): Setting requestedVisibleTypes to 511 (was 503)
+W/trashbank_batam(11858): Suspending all threads took: 5.330ms
+D/InputConnectionAdaptor(11858): The input method toggled cursor monitoring on
+I/trashbank_batam(11858): Background young concurrent mark compact GC freed 2363KB AllocSpace bytes, 0(0B) LOS objects, 46% free, 2579KB/4798KB, paused 14.813ms,12.151ms total 1.545s
+W/trashbank_batam(11858): Reducing the number of considered missed Gc histogram windows from 257 to 100
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@cb48668
+W/InputMethodManager(11858): Timeout waiting for IME to handle input event after 2500 ms: com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): com.example.trashbank_batam:a99e26e1: onShown
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): com.example.trashbank_batam:79754fea: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): show(ime())
+I/ImeTracker(11858): com.example.trashbank_batam:79754fea: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InputConnectionAdaptor(11858): The input method toggled cursor monitoring on
+I/ImeTracker(11858): com.example.trashbank_batam:26c2c682: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): hide(ime())
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/InsetsController(11858): Setting requestedVisibleTypes to 503 (was 511)
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): system_server:5cf38da5: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/InteractionJankMonitor(11858): Build configuration failed!
+D/InteractionJankMonitor(11858): java.lang.IllegalArgumentException: Must pass in a valid surface control if only instrument surface; 
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.validate(InteractionJankMonitor.java:946)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:882)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:0)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration$Builder.build(InteractionJankMonitor.java:852)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor.begin(InteractionJankMonitor.java:400)
+D/InteractionJankMonitor(11858): 	at android.view.inputmethod.ImeTracker$ImeJankTracker.lambda$onRequestAnimation$0(ImeTracker.java:970)
+D/InteractionJankMonitor(11858): 	at android.view.inputmethod.ImeTracker$ImeJankTracker$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.handleCallback(Handler.java:1095)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+D/InteractionJankMonitor(11858): 	at android.os.Looper.loopOnce(Looper.java:296)
+D/InteractionJankMonitor(11858): 	at android.os.Looper.loop(Looper.java:397)
+D/InteractionJankMonitor(11858): 	at android.app.ActivityThread.main(ActivityThread.java:9523)
+D/InteractionJankMonitor(11858): 	at java.lang.reflect.Method.invoke(Native Method)
+D/InteractionJankMonitor(11858): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+D/InteractionJankMonitor(11858): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:939)
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+Performing hot restart...                                       
+Restarted application in 29,660ms.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+I/ImeTracker(11858): com.example.trashbank_batam:e4b72dc4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): show(ime())
+D/InsetsController(11858): Setting requestedVisibleTypes to 511 (was 503)
+D/InputConnectionAdaptor(11858): The input method toggled cursor monitoring on
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@cb48668
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): com.example.trashbank_batam:e4b72dc4: onShown
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): com.example.trashbank_batam:e3e04dc: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController(11858): hide(ime())
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/InsetsController(11858): Setting requestedVisibleTypes to 503 (was 511)
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+I/Choreographer(11858): Skipped 30 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+I/ImeTracker(11858): system_server:e7f6839: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/InteractionJankMonitor(11858): Build configuration failed!
+D/InteractionJankMonitor(11858): java.lang.IllegalArgumentException: Must pass in a valid surface control if only instrument surface; 
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.validate(InteractionJankMonitor.java:946)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:882)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:0)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor$Configuration$Builder.build(InteractionJankMonitor.java:852)
+D/InteractionJankMonitor(11858): 	at com.android.internal.jank.InteractionJankMonitor.begin(InteractionJankMonitor.java:400)
+D/InteractionJankMonitor(11858): 	at android.view.inputmethod.ImeTracker$ImeJankTracker.lambda$onRequestAnimation$0(ImeTracker.java:970)
+D/InteractionJankMonitor(11858): 	at android.view.inputmethod.ImeTracker$ImeJankTracker$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.handleCallback(Handler.java:1095)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+D/InteractionJankMonitor(11858): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+D/InteractionJankMonitor(11858): 	at android.os.Looper.loopOnce(Looper.java:296)
+D/InteractionJankMonitor(11858): 	at android.os.Looper.loop(Looper.java:397)
+D/InteractionJankMonitor(11858): 	at android.app.ActivityThread.main(ActivityThread.java:9523)
+D/InteractionJankMonitor(11858): 	at java.lang.reflect.Method.invoke(Native Method)
+D/InteractionJankMonitor(11858): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+D/InteractionJankMonitor(11858): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:939)
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/FlutterJNI(11858): Sending viewport metrics to the engine.
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@e47edc6
+D/WindowOnBackDispatcher(11858): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@85e90d5
